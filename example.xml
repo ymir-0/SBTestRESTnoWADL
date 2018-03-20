@@ -1,0 +1,15 @@
+<exam:request xmlns:exam="http://www.example.org">
+    <exam:verb>GET</exam:verb>
+    <exam:URI>http://10.7.1.11:5000/test</exam:URI>
+    <exam:member>dummiest/foo,fum</exam:member>
+    <exam:parameters>
+        <exam:parameter>
+            <exam:paramName>foo!fum</exam:paramName>
+            <exam:paramValue>bar</exam:paramValue>
+        </exam:parameter>
+        <exam:parameter>
+            <exam:paramName>foo[fum]</exam:paramName>
+            <exam:paramValue>bar</exam:paramValue>
+        </exam:parameter>
+    </exam:parameters>
+</exam:request>
